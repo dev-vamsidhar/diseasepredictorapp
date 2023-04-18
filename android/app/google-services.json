@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "566848183775",
+    "project_id": "riktum-e6fe5",
+    "storage_bucket": "riktum-e6fe5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566848183775:android:ce924dd1a2fd42d333386a",
+        "android_client_info": {
+          "package_name": "com.example.medico"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566848183775-md9vabjoksi8rs3qcg1nqckna7hk53t9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiPDW-nzK-EpkK7eOJn-eCxAZG6dchK_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566848183775-md9vabjoksi8rs3qcg1nqckna7hk53t9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:566848183775:android:d3dc47780d40a8f233386a",
+        "android_client_info": {
+          "package_name": "com.example.rikt"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "566848183775-md9vabjoksi8rs3qcg1nqckna7hk53t9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiPDW-nzK-EpkK7eOJn-eCxAZG6dchK_I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "566848183775-md9vabjoksi8rs3qcg1nqckna7hk53t9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
