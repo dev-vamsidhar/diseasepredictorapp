@@ -205,13 +205,11 @@ class HomePage extends StatelessWidget {
             SizedBox(
               height: 30,
             ),
-            customDropdown(l1, "eg. Diabetis", "Select Symptom 1", "s1"),
-            customDropdown(
-                l1, "eg. Urinal Infection", "Select Symptom 2", "s2"),
-            customDropdown(l1, "eg. Heartpain", "Select Symptom 3", "s4"),
-            customDropdown(
-                l1, "eg. Urinal Infection", "Select Symptom 4", "s5"),
-            customDropdown(l1, "eg. Heartpain", "Select Symptom 5", "s6"),
+            customDropdown(l1, "eg. Yellow_urine", "Select Symptom 1", "s1"),
+            customDropdown(l1, "eg. Mild_fever", "Select Symptom 2", "s2"),
+            customDropdown(l1, "eg. Cold", "Select Symptom 3", "s4"),
+            customDropdown(l1, "eg. Chest Pain", "Select Symptom 4", "s5"),
+            customDropdown(l1, "eg. Headache", "Select Symptom 5", "s6"),
             customDropdown(
                 ["Bangalore", "Chennai", "Vizag", "Hyderabad", "Tirupati"],
                 "eg. Location",
