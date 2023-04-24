@@ -20,7 +20,8 @@ class HomePage extends StatelessWidget {
     "s2": "",
     "s3": "",
     "s4": "",
-    "s5": ""
+    "s5": "",
+    "location": "",
   };
 
   List<String> l1 = [
@@ -211,6 +212,11 @@ class HomePage extends StatelessWidget {
             customDropdown(
                 l1, "eg. Urinal Infection", "Select Symptom 4", "s5"),
             customDropdown(l1, "eg. Heartpain", "Select Symptom 5", "s6"),
+            customDropdown(
+                ["Bangalore", "Chennai", "Vizag", "Hyderabad", "Tirupati"],
+                "eg. Location",
+                "Select Location",
+                "location"),
             SizedBox(
               height: 15,
             ),
@@ -231,10 +237,13 @@ class HomePage extends StatelessWidget {
                       "data${DateTime.now()}": res.data,
                       "uid": FirebaseAuth.instance.currentUser?.uid
                     });
+                print(res.data);
                 Get.to(Prediction(
                   disease1: res.data["result"][0],
                   disease2: res.data["result"][1],
                   disease3: res.data["result"][2],
+                  location: symptoms['location'].toString(),
+                  hospital: res.data["hosipital"],
                 ));
                 EasyLoading.dismiss();
               },
